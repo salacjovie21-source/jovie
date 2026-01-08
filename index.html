@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Resume</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        body {
+            background: #f1f5f9;
+            color: #1e293b;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 40px auto;
+            background: #ffffff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 30px;
+            background: #0f172a;
+            color: rgb(204, 202, 202);
+        }
+
+        .profile-img {
+            width: 130px;
+            height: 130px;
+            border-radius: 50%;
+            border: 4px solid #c1c3c4;
+            object-fit: cover;
+            margin-right: 30px;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            color: #c1c6c9;
+        }
+
+        .header p {
+            font-size: 18px;
+            margin-top: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 25px 30px;
+            border-bottom: 1px solid #c2c3c5;
+        }
+
+        h2 {
+            margin-bottom: 10px;
+            color: #0f172a;
+            border-left: 5px solid #bcbfc0;
+            padding-left: 10px;
+        }
+
+        .skills {
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .skills span {
+            background: #b4b6b6;
+            color: #0f172a;
+            padding: 8px 14px;
+            border-radius: 20px;
+            margin: 6px;
+            font-weight: bold;
+        }
+
+        .project {
+            margin-bottom: 12px;
+        }
+
+        /* Contact */
+        .contact p {
+            margin: 6px 0;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: #6a6a6b;
+            color: rgb(190, 185, 185);
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Header with Profile -->
+    <div class="header">
+        <img src="image.png" alt="Profile Photo" class="profile-img">
+        <div>
+            <h1>Jovie Salac</h1>
+            <p>Web Developer | Student</p>
+        </div>
+    </div>
+
+    <!-- About -->
+    <section>
+        <h2>About Me</h2>
+        <p>
+            I am a passionate web developer with experience in building
+            responsive and user-friendly websites using modern technologies.
+        </p>
+    </section>
+
+    <!-- Skills -->
+    <section>
+        <h2>Skills</h2>
+        <div class="skills">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+            
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section>
+        <h2>Projects</h2>
+
+        <div class="project">
+            <strong>Portfolio Website</strong>
+            <p>Personal portfolio built using HTML and CSS.</p>
+        </div>
+
+        <div class="project">
+            <strong>Weather App</strong>
+            <p>Weather application using JavaScript and API.</p>
+        </div>
+    </section>
+
+    <!-- Education -->
+    <section>
+        <h2>Education</h2>
+        <p><strong>Bachelor’s Degree</strong></p>
+        <p>CSFJ</p>
+        <p>2022 – 2026</p>
+    </section>
+
+    
+    <footer>
+        © 2026 Your Name | Portfolio Resume
+    </footer>
+
+</div>
+
+</body>
+</html>

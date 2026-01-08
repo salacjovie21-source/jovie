@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #c2bebe;
+    color: #9e8f8f;
+}
+
+header {
+    background-color: #222;
+    color: rgb(182, 180, 180);
+    padding: 30px;
+    text-align: center;
+}
+
+section {
+    background: rgb(182, 179, 179);
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 8px;
+}
+
+h2 {
+    border-bottom: 2px solid #b4a8a8;
+    padding-bottom: 5px;
+}
+
+.skills {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background: #797575;
+    color: rgb(184, 176, 176);
+    padding: 8px 12px;
+    margin: 5px;
+    border-radius: 4px;
+}
+
+.project {
+    margin-bottom: 15px;
+}
+
+.contact p {
+    margin: 5px 0;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #a7a1a1;
+    color: rgb(179, 170, 170);
+}
